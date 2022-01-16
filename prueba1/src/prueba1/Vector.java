@@ -10,7 +10,7 @@ public class Vector {
 			a[i]=(i+1) * 10;
 		// visualizamos el vector 
 		for (int i=0;i<n;i++)
-			System.out.printf("Elemento %d=%d\n",i,vector[i]);
+			System.out.printf("Elemento %d=%d\n",i,a[i]);
 		for (int i=0;i<n;i++)
 			resultado +=a[i];
 		//visualizamos la media de los valores calculados
