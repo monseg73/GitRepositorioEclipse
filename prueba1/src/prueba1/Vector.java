@@ -20,6 +20,6 @@ public class Vector {
 	public static void visualizarVector(int[] vector) {
 		for (int i=0;i<vector.length;i++)
 			System.out.printf("Elemento %d=%d\n",i,vector[i]);
-	}	
 
+	}
 }
