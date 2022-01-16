@@ -15,7 +15,8 @@ public class Vector {
 			resultado +=a[i];
 		//visualizamos la media de los valores calculados
 		System.out.println("La media es = " + resultado/n);
-		
+		//visualizamos la media de otra forma
+		System.out.printf("La media calculada es %d",resultado/n);		
 	}
 
 }
